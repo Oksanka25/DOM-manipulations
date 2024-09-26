@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  height: 100vh;
+}
+.rating__wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+
+.rating__title {
+  font-family: "Poppins";
+}
+
+.rating__stars-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating__star-number {
+  display: block;
+  text-align: center;
+}
+.rating__star-container {
+}
+.rating__submission-text {
+}
+
+.rating__btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.rating__btn {
+  margin-top: 20px;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.rating__submission-text_hide {
+  display: none;
+}
